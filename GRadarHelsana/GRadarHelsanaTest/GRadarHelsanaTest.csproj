@@ -67,6 +67,10 @@
       <Project>{1efb2103-f560-461f-9ecf-82b99e4e06a1}</Project>
       <Name>GRadarHelsana</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WeatherData\WeatherData.csproj">
+      <Project>{a398ed3f-be37-4278-8176-91344dfef7b0}</Project>
+      <Name>WeatherData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
