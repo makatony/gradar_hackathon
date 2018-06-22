@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    class DataContext : DbContext
+    class DataContext 
     {
 
         GRadarModel db;

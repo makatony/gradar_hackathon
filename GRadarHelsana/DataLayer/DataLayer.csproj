@@ -54,11 +54,21 @@
     <Compile Include="Canton.cs" />
     <Compile Include="DataContext.cs" />
     <Compile Include="GRadarModel.cs" />
+    <Compile Include="Migrations\201806221430026_Ver1.cs" />
+    <Compile Include="Migrations\201806221430026_Ver1.Designer.cs">
+      <DependentUpon>201806221430026_Ver1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201806221430026_Ver1.resx">
+      <DependentUpon>201806221430026_Ver1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
