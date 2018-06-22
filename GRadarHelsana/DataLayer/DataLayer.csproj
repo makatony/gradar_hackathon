@@ -50,7 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BAGData.cs" />
+    <Compile Include="bAGDataManager.cs" />
     <Compile Include="Canton.cs" />
+    <Compile Include="DataContext.cs" />
     <Compile Include="GRadarModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

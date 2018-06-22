@@ -6,6 +6,7 @@ namespace DataLayer
 
     public class GRadarModel : DbContext
     {
+        public DbSet<BAGData> BAGDataList { get; set; }
         // Your context has been configured to use a 'GRadarModel' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
         // 'DataLayer.GRadarModel' database on your LocalDb instance. 
